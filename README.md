@@ -18,3 +18,12 @@
 CentOS 8 vs. Amazon Linux 2 - Feature Comparison
 : 기본적으로 같은 origin(Redhat) base 라 진행에 무리가 없다고 판단하고, Amazon Linux 2 로 운영체제를 선택하겠다.
 참고 출처: https://computingforgeeks.com/centos-vs-amazon-linux-feature-comparison/
+
+#### 2. Cost Estimation
+- Amazon Linux 2(cpu:2, 메모리: 8gb), 3대 : 시간당 
+- 
+아래 주소에서 AWS 서버 운용에 대한 cost 를 추산해볼수 있다.
+https://calculator.aws/#/addService
+
+#### 3.Installing Cloudera Manager on EC2
+https://docs.cloudera.com/documentation/manager/5-1-x/Cloudera-Manager-Installation-Guide/cm5ig_install_on_ec2.html
