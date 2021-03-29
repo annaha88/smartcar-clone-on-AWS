@@ -11,7 +11,7 @@
 - 스마트카 파일럿 프로젝트는 잘 짜여진 설계구조와 검증된 데이터를 가지고 있기에, 정제되지 않은 데이터 문제 등으로 인한 불필요한 사이드 이펙트를 줄이고, 단기간에 본연의 목적인 시스템 이해와 구현에 초점을 맞출수 있다고 판단하였다.
 
 
-- 프로젝트를 진행하면서, 기존의 운영체제(Window) 위 버추얼박스 CentOS 7 서버 환경을 Reference로 하여, AWS 의 EC2(Amazon Linux 2 AMI) 위주의 서버 환경의 장단점 또한 비교해보려고 한다. 
+- 프로젝트를 진행하면서, 기존의 운영체제(Window) 위 버추얼박스 CentOS 7 서버 환경을 Reference로 하여, AWS 의 EC2(Amazon Linux 2 AMI) 위주의 서버 환경의 장단점을 비교해보려고 한다. 
 
 
 #### 1. 개발환경 비교
@@ -20,9 +20,8 @@ CentOS 8 vs. Amazon Linux 2 - Feature Comparison
 참고 출처: https://computingforgeeks.com/centos-vs-amazon-linux-feature-comparison/
 
 #### 2. Cost Estimation
-- Amazon Linux 2(cpu:2, 메모리: 8gb), 3대 : 시간당 
-- 
-아래 주소에서 AWS 서버 운용에 대한 cost 를 추산해볼수 있다.
+- Amazon Linux 2(m4.large cpu:2, 메모리: 8gb), 3대 : 3 instances x 0.123 USD x 730 hours in month = 269.37 USD (monthly onDemand cost) * 한달 내내 돌릴경우
+- 아래 주소에서 AWS 서버 운용에 대한 cost 를 추산해볼수 있다.
 https://calculator.aws/#/addService
 
 #### 3.Installing Cloudera Manager on EC2
