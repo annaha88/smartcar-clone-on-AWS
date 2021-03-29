@@ -14,5 +14,6 @@
 - 프로젝트를 진행하면서, 기존의 운영체제(Window) 위 버추얼박스 CentOS 6 서버 환경을 Reference로 하여, AWS 의 EC2(Amazon Linux 2 AMI) 위주의 서버 환경의 장단점 또한 비교해보려고 한다. 
 
 
+#### 1. 개발환경 비교 참고
 CentOS 8 vs. Amazon Linux 2 - Feature Comparison
 참고 출처: https://computingforgeeks.com/centos-vs-amazon-linux-feature-comparison/
