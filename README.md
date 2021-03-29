@@ -1,4 +1,4 @@
-# **Smart car pilot on AWS**
+# **Smart car pilot clone on AWS**
 
 ### 본 프로젝트의 목적 : 빅데이터 하둡 에코시스템을 이용한 스마트카 파일럿 프로젝트를 AWS 위에 올려 구현하는 것
 1. AWS 클라우드 시스템의 이해와 구현
