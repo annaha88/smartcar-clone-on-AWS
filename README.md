@@ -18,6 +18,7 @@
 CentOS 8 vs. Amazon Linux 2 - Feature Comparison
 : 기본적으로 같은 origin(Redhat) base 라 진행에 무리가 없다고 판단하고, Amazon Linux 2 로 운영체제를 선택하겠다.
 참고 출처: https://computingforgeeks.com/centos-vs-amazon-linux-feature-comparison/
+-> AWS에서도 CentOS 7을 지원하니 CentOS로 선정하는 것으로 변경하겠다.
 
 #### 2. Cost Estimation
 - Amazon CentOS 7 (m4.large cpu:2, 메모리: 8gb), 3대 : 3 instances x 0.123 USD x 730 hours in month = 269.37 USD (monthly onDemand cost) * 한달 내내 돌릴경우
