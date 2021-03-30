@@ -20,10 +20,24 @@ CentOS 8 vs. Amazon Linux 2 - Feature Comparison
 참고 출처: https://computingforgeeks.com/centos-vs-amazon-linux-feature-comparison/
 
 #### 2. Cost Estimation
-- Amazon Ubuntu 2(m4.large cpu:2, 메모리: 8gb), 3대 : 3 instances x 0.123 USD x 730 hours in month = 269.37 USD (monthly onDemand cost) * 한달 내내 돌릴경우
+- Amazon CentOS 7 (m4.large cpu:2, 메모리: 8gb), 3대 : 3 instances x 0.123 USD x 730 hours in month = 269.37 USD (monthly onDemand cost) * 한달 내내 돌릴경우
 - 아래 주소에서 AWS 서버 운용에 대한 cost 를 추산해볼수 있다.
 https://calculator.aws/#/addService
+
+#### 4. Putty로 생성된 ec2 인스턴스 접근
+- AWS 콘솔에서 키페어 생성후, 다운받은 pem 키를 putty gen 을 이용하여 ppk 로 변환 후, putty 를 이용해 ec2 인스턴스에 접속할수 있다
+- CentOs 인스턴스의 경우에 username은 centos 이다.(다른 경우, 보통 ec2-user나 ubuntu)
+- cloudera 설치를 위해서 root 접근 권한을 추가해서 root 로 접속할수 있다. 
 
 #### 3.Installing Cloudera Manager on EC2
 https://docs.cloudera.com/documentation/manager/5-1-x/Cloudera-Manager-Installation-Guide/cm5ig_install_on_ec2.html
 https://aws.amazon.com/ko/quickstart/architecture/cloudera/
+
+- 결론적으로 cloudera installing 부터 실패하였다.**(21.3월 기준)**
+- 이유는, 클라우데라 정책 변경으로 인해, 21년 1월 기준으로 모든 소프트웨어 접근에 subscription이 필요하게 되었다. 
+- subscription은 클라우데라에 따로 컨택이 필요하다.
+
+
+
+
+
