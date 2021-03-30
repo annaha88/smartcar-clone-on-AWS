@@ -38,8 +38,7 @@ https://aws.amazon.com/ko/quickstart/architecture/cloudera/
 - subscription은 클라우데라에 따로 컨택이 필요하다.
 - AWS 가 아닌 로컬환경에서 예전에 진행했던 내용을 정리해보겠다.
 
-## 장단점(기본적인 환경 구성에 대해서만)
-- AWS 클라우드 방식
+## AWS 클라우드 방식의 장단점(기본적인 환경 구성에 대해서만)
 1.장점 
    - 로컬 리소스가 충분치 않은 경우, 초기 비용 없이 프로젝트를 시작할수 있다.
    - 원하는 운영체제로 쉽게 바꿔가며 구성해볼수 있다.(CentOs, Ubuntu, Amazon Linux etc 거의 모든 운영체제 지원), EBS 스토리지를 추가로 붙이기도 쉽다.
