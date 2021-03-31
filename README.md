@@ -22,7 +22,7 @@ CentOS 8 vs. Amazon Linux 2 - Feature Comparison
 
 #### 2. Cost Estimation
 - Amazon CentOS 7 (m4.large cpu:2, 메모리: 8gb), 3대 : 3 instances x 0.123 USD x 730 hours in month = 269.37 USD (monthly onDemand cost) * 한달 내내 돌릴경우
-- 아래 주소에서 AWS 서버 운용에 대한 cost 를 추산해볼수 있다.
+- 아래 주소에서 AWS 서버 운용에 대한 cost 를 추산해볼수 있다.\
 https://calculator.aws/#/addService
 
 #### 4. Putty를 이용하여 생성된 ec2 인스턴스 접근
