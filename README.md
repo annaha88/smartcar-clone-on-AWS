@@ -26,9 +26,9 @@ CentOS 8 vs. Amazon Linux 2 - Feature Comparison
 https://calculator.aws/#/addService
 
 #### 4. Putty를 이용하여 생성된 ec2 인스턴스 접근
-- AWS 콘솔에서 키페어 생성후, 다운받은 pem 키를 putty gen 을 이용하여 ppk 로 변환 후, putty 를 이용해 ec2 인스턴스에 접속할수 있다
-- CentOs 인스턴스의 경우에 username은 centos 이다.(다른 경우, 보통 ec2-user나 ubuntu)\
+- AWS 콘솔에서 키페어 생성후, 다운받은 pem 키를 putty gen 을 이용하여 ppk 로 변환 후, putty 를 이용해 ec2 인스턴스에 접속할수 있다\
 https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/putty.html
+- CentOs 인스턴스의 경우에 username은 centos 이다.(다른 경우, 보통 ec2-user나 ubuntu)
 - cloudera 설치를 위해서 root 접근 권한을 추가해서 root 로 접속할수 있다. 
 
 #### 3.Installing Cloudera Manager on EC2
