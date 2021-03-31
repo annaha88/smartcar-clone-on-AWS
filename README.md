@@ -36,8 +36,8 @@ https://aws.amazon.com/ko/quickstart/architecture/cloudera/
 
 - 결론적으로 cloudera installing 부터 실패하였다.**(21.3월 기준)**
 - 이유는, 클라우데라 정책 변경으로 인해, 21년 1월 기준으로 모든 소프트웨어 접근에 subscription이 필요하게 되었다. 
-- subscription은 클라우데라에 따로 컨택이 필요하다.
-- AWS 가 아닌 로컬환경에서 예전에 진행했던 내용을 정리해서 Update 해두어야 겠다.
+- subscription은 클라우데라에 따로 컨택이 필요하다.(문의 메일 보냄)
+- 우선 AWS 가 아닌 로컬환경에서 예전에 진행했던 내용을 정리해서 Update 해두어야 겠다.
 
 ## AWS 클라우드 방식의 장단점(기본적인 환경 구성에 대해서만)
 1.장점
